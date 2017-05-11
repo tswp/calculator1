@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AndroidStudioProjects\calculator1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f422476ce1315611f127524191c278677608b8f">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\calculator1\app\build\intermediates\pre-dexed\debug\instant-run_b87585ee2e9190744cd240f80ff3dc1e6900196b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\calculator1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_cd17d326241b6d6a08c4f9f4a82851f94ea26bc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AndroidStudioProjects\calculator1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="861d8ffddedbe0b1907f0e08c0ece97b96125b8b">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\calculator1\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5b1ef4ef2ae9d1cebc45d2c764e8596fdeba651b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,311 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical">
+	
+    <!-- 显示框样式 -->
+    <!-- 
+    android:gravity="center_horizontal":设置按钮居中显示
+    android:background="@drawable/white_bg"：自己定义背景样式 
+    android:editable="false"：设置当前editView不可编辑 
+    android:gravity="right|bottom":设置文本显示在右边且在下边
+    -->
+    <EditText
+        android:id="@+id/edittext"
+        android:background="@drawable/white_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:editable="false" 
+        android:gravity="right|bottom"/>  		
+    		
+
+    <!-- 
+    android:gravity="right|bottom":设置按钮上的文本在   右|下 方显示
+     -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        
+       	<!-- 第一排按钮样式 -->
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="C"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_clear"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="DEL"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:background="@drawable/white_selector"
+            android:id="@+id/btn_del"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="÷"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_divide"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="×"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_multiply"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        </LinearLayout>
+           
+    <!-- 第二排按钮样式 --> 
+	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="7"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_7"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="8"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_8"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="9"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_9"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="-"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_minus"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        
+    </LinearLayout>
+    
+    <!-- 第三排按钮样式 -->
+    
+	<LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_4"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="5"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_5"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="6"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_6"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>
+        <Button 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="+"
+            android:gravity="right|bottom"
+            android:textSize="20sp"
+            android:id="@+id/btn_plus"
+            android:background="@drawable/white_selector"
+            android:layout_margin="5dp" 
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"/>       
+    </LinearLayout>
+    
+	<!-- 第四五行布局 -->
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal" >
+
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical" >
+
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <!-- 1 2 3 按钮水平方向添加 -->
+
+	            <Button
+	                android:id="@+id/btn_1"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"
+	                android:layout_margin="5dp"
+	                android:background="@drawable/white_selector"
+	                android:gravity="right|bottom"
+	                android:text="1"
+	                android:textSize="20sp" 
+            		android:paddingRight="10dp"
+           			android:paddingBottom="10dp" />
+
+	            <Button
+	                android:id="@+id/btn_2"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"
+	                android:layout_margin="5dp"
+	                android:background="@drawable/white_selector"
+	                android:gravity="right|bottom"
+	                android:text="2"
+	                android:textSize="20sp" 
+            		android:paddingRight="10dp"
+           			android:paddingBottom="10dp" />
+
+	            <Button
+	                android:id="@+id/btn_3"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"
+	                android:layout_margin="5dp"
+	                android:background="@drawable/white_selector"
+	                android:gravity="right|bottom"
+	                android:text="3"
+	                android:textSize="20sp" 
+            		android:paddingRight="10dp"
+           			android:paddingBottom="10dp" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:orientation="horizontal" >
+
+	            <!-- 水平布局添加  0  . 按钮 -->
+
+	            <Button
+	                android:id="@+id/btn_0"
+	                android:layout_width="130dp"
+	                android:layout_height="60dp"
+	                android:layout_margin="5dp"
+	                android:layout_weight="0.71"
+	                android:background="@drawable/white_selector"
+	                android:gravity="right|bottom"
+	                android:text="0"
+	                android:textSize="20sp" 
+            		android:paddingRight="10dp"
+           			android:paddingBottom="10dp" />
+
+	            <Button
+	                android:id="@+id/btn_point"
+	                android:layout_width="60dp"
+	                android:layout_height="60dp"
+	                android:layout_margin="5dp"
+	                android:background="@drawable/white_selector"
+	                android:gravity="right|bottom"
+	                android:paddingLeft="10dp"
+	                android:text="."
+	                android:textSize="20sp" 
+            		android:paddingRight="10dp"
+           			android:paddingBottom="10dp" />
+	        </LinearLayout>
+
+	    </LinearLayout>
+
+	    <Button
+	        android:id="@+id/btn_equal"
+	        android:layout_width="60dp"
+	        android:layout_height="140dp"
+	        android:layout_margin="5dp"
+	        android:background="@drawable/orange_selector"
+	        android:gravity="right|bottom"
+	        android:text="=" 
+            android:paddingRight="10dp"
+           	android:paddingBottom="10dp" />
+	</LinearLayout>
+	    
+	 </LinearLayout>
+	
+</LinearLayout>
+

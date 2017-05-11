@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ashend_bg.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\src\\main\\res\\drawable\\ashend_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\orange_bg.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\src\\main\\res\\drawable\\orange_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_selector.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\src\\main\\res\\drawable\\white_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_bg.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\src\\main\\res\\drawable\\gray_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\orange_selector.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\src\\main\\res\\drawable\\orange_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_bg.xml",
+        "source": "C:\\Users\\Administrator\\AndroidStudioProjects\\calculator1\\app\\src\\main\\res\\drawable\\white_bg.xml"
+    }
+]
